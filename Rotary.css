@@ -1,0 +1,53 @@
+.main-front {
+    margin: 20px auto;
+    width: 80%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: table;
+}
+
+.main-front h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.main-front .col-md-6 {
+    background: none;
+}
+
+#ticker, .rotator {
+    display: inline-block;
+}
+
+.rotator {
+    text-align: center;
+    width: 65px;
+    height: 100px;
+    font-family: "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 50px;
+    background-color: #ffbffa;
+    background-position: 0 0, 50% 50%, 100% 150%;
+    background-size: 300% 50%;
+    background-repeat: no-repeat;
+    margin: 50px 0 20px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.quota {
+    height: 50%;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#result {
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 3px;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+}
